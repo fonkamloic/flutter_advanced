@@ -1,5 +1,5 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_advanced/OpacityToggle.dart';
 
 void main() => runApp(MyApp());
 
@@ -10,20 +10,6 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  bool _visible;
-
-  @override
-  void initState() {
-    _visible = true;
-    super.initState();
-  }
-
-  void _toggleVisible() {
-    setState(() {
-      _visible = !_visible;
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -31,7 +17,13 @@ class _MyAppState extends State<MyApp> {
         appBar: AppBar(
           title: Text("Name here"),
         ),
-        body: OpacityToggle(_visible, _toggleVisible),
+        body: Container(
+            padding: EdgeInsets.all(32.0),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: <Widget>[],
+            )),
       ),
     );
   }
