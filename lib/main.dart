@@ -64,8 +64,8 @@ class Touch3DModelState extends State<Touch3DModel> {
             path: "assets/file.obj",
             asset: true,
           ),
-          left: x_coord,
-          top: y_coord,
+          left: x_coord - 100,
+          top: y_coord - 100,
         )
       ]),
     );
