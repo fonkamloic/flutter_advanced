@@ -26,23 +26,23 @@ dependencies:
   flutter_map: ^0.8.0
   url_launcher: ^5.4.1
   #simple_permissions: ^0.1.9
+  phone_number: ^0.6.0+1
   rxdart: ^0.23.1
   path_provider: ^1.5.1
   custom_splash: ^0.0.2
   flutter_3d_obj: ^0.0.6
-
+  native_state: ^1.0.1
+  flutter_appauth: ^0.6.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
@@ -53,13 +53,10 @@ flutter:
     - images/
     - assets/file.obj
   #  - images/a_dot_ham.jpeg
-
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
-
   # For details regarding adding assets from package dependencies, see
   # https://flutter.dev/assets-and-images/#from-packages
-
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
   # "family" key with the font family name, and a "fonts" key with a
