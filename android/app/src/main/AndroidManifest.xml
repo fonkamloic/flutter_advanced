@@ -34,8 +34,10 @@
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
 
+    
+<!--android:name="io.flutter.app.FlutterApplication"-->
     <application
-        android:name="io.flutter.app.FlutterApplication"
+        
         android:label="flutter_advanced"
         android:icon="@mipmap/ic_launcher">
         <activity
